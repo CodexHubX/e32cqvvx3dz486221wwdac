@@ -1435,6 +1435,7 @@ do
         local Toggle = {
             Value = Info.Default or false;
             Type = 'Toggle';
+            Callback = Info.Callback or function(Value) end;
 
             Addons = {},
         };
@@ -1530,7 +1531,8 @@ do
                     Addon:Update()
                 end
             end
-
+            Library:SafeCallback(Toggle.Callback, Toggle.Value);
+            Library:SafeCallback(Toggle.Changed, Toggle.Value);
             if Toggle.Changed then
                 Toggle.Changed();
             end;
