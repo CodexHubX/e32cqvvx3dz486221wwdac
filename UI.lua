@@ -1516,7 +1516,7 @@ do
 
         function Toggle:OnChanged(Func)
             Toggle.Changed = Func;
-            Func();
+            Func(Toggle.Value);
         end;
 
         function Toggle:SetValue(Bool)
