@@ -97,7 +97,27 @@ function Library:CreateLabel(Properties, IsHud)
 
     return Library:Create(_Instance, Properties);
 end;
+function Library:SafeCallback(f, ...)
+    if (not f) then
+        return;
+    end;
 
+    if not Library.NotifyOnError then
+        return f(...);
+    end;
+
+    local success, event = pcall(f, ...);
+
+    if not success then
+        local _, i = event:find(":%d+: ");
+
+        if not i then
+            return Library:Notify(event);
+        end;
+
+        return Library:Notify(event:sub(i + 1), 3);
+    end;
+end;
 function Library:MakeDraggable(Instance, Cutoff)
     Instance.Active = true;
 
@@ -672,6 +692,8 @@ do
             Toggled = false;
             Mode = Info.Mode or 'Toggle'; -- Always, Toggle, Hold
             Type = 'KeyPicker';
+            Callback = Info.Callback or function(Value) end;
+            ChangedCallback = Info.ChangedCallback or function(New) end;
 
             SyncToggleState = Info.SyncToggleState or false;
         };
@@ -864,7 +886,10 @@ do
         function KeyPicker:OnClick(Callback)
             KeyPicker.Clicked = Callback
         end
-
+        function KeyPicker:OnChanged(Callback)
+            KeyPicker.Changed = Callback
+            Callback(KeyPicker.Value)
+        end
 
         if ParentObj.Addons then
             table.insert(ParentObj.Addons, KeyPicker)
@@ -878,6 +903,8 @@ do
             if KeyPicker.Clicked then
                 KeyPicker.Clicked()
             end
+            Library:SafeCallback(KeyPicker.Callback, KeyPicker.Toggled)
+            Library:SafeCallback(KeyPicker.Clicked, KeyPicker.Toggled)
         end
 
         local Picking = false;
@@ -923,6 +950,8 @@ do
 
                     DisplayLabel.Text = Key;
                     KeyPicker.Value = Key;
+                    Library:SafeCallback(KeyPicker.ChangedCallback, Input.KeyCode or Input.UserInputType)
+                    Library:SafeCallback(KeyPicker.Changed, Input.KeyCode or Input.UserInputType)
 
                     Library:AttemptSave();
 
