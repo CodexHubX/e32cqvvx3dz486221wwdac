@@ -2554,7 +2554,7 @@ function Library:CreateWindow(...)
                 Visible = false;
                 ZIndex = 2;
                 Parent = TabContainer;
-                ScrollBarThickness = 1.5;
+                ScrollBarThickness = 3;
             }
         else
             FrameType = "Frame"
