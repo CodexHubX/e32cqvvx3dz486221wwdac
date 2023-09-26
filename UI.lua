@@ -1869,7 +1869,7 @@ do
         local Scrolling = Library:Create('ScrollingFrame', {
             BackgroundTransparency = 1;
             CanvasSize = UDim2.new(0, 0, 0, 0);
-            Size = UDim2.new(2, 0, 2, 0);
+            Size = UDim2.new(1, 0, 1, 0);
             ZIndex = 21;
             Parent = ListInner;
 
