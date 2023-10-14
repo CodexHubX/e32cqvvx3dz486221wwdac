@@ -1,14 +1,14 @@
 BannerSpacail = {
-[1] = 'AVA',
-[2] = 'AVA',
-[3] = 'AVA',
+[1] = 'lancer',
+[2] = 'leafa',
+[3] = 'bang',
 }
 BannerStandard = {
-[1] = 'spedwagon',
-[2] = 'Bulma',
-[3] = 'Geto',
-[4] = 'Ver',
-[5] = 'Ccd',
-[6] = 'AVA',
+[1] = 'josuke',
+[2] = 'uraraka',
+[3] = 'usopp',
+[4] = 'frieza',
+[5] = 'kaneki_2',
+[6] = 'megumi',
 }
- Time = 3
+ Time = '03'
