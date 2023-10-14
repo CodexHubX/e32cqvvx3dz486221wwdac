@@ -11,4 +11,4 @@ BannerStandard = {
 [5] = 'kaneki_2',
 [6] = 'megumi',
 }
- TimeInBanner = '03'
+ TimeInBanner = '04'
