@@ -1,14 +1,14 @@
 BannerSpacail = {
-[1] = 'fujitora',
-[2] = 'lancer',
-[3] = 'shalltear',
+[1] = 'shalltear',
+[2] = 'gyutaro',
+[3] = 'asuna',
 }
 BannerStandard = {
-[1] = 'usopp',
-[2] = 'sakura',
-[3] = 'josuke',
-[4] = 'todoroki',
-[5] = 'rukia',
-[6] = 'natsu',
+[1] = 'jonathan',
+[2] = 'naruto',
+[3] = 'tanjiro',
+[4] = 'kakyoin',
+[5] = 'dabi',
+[6] = 'juuzou',
 }
- TimeInBanner = 11
+ TimeInBanner = 12
