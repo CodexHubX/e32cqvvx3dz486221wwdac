@@ -1,14 +1,14 @@
 BannerSpacail = {
-[1] = 'archer',
-[2] = 'ban',
-[3] = 'endeavor',
+[1] = 'vegeta_super',
+[2] = 'king_7ds',
+[3] = 'frieza_golden',
 }
 BannerStandard = {
-[1] = 'zoro',
-[2] = 'krillin',
-[3] = 'bakugou',
-[4] = 'killua',
-[5] = 'grimmjow',
-[6] = 'madara',
+[1] = 'sakura',
+[2] = 'josuke',
+[3] = 'nezuko',
+[4] = 'genos',
+[5] = 'giorno',
+[6] = 'uryu',
 }
- TimeInBanner = '05'
+ TimeInBanner = 06
