@@ -1,14 +1,14 @@
 BannerSpacail = {
-[1] = 'sabo',
-[2] = 'griffith',
-[3] = 'illya',
+[1] = 'luffy_g4',
+[2] = 'albedo',
+[3] = 'bang',
 }
 BannerStandard = {
-[1] = 'jonathan',
-[2] = 'krillin',
+[1] = 'uraraka',
+[2] = 'sakura',
 [3] = 'zoro',
-[4] = 'zenitsu',
-[5] = 'goku_black',
-[6] = 'meruem',
+[4] = 'crocodile',
+[5] = 'kaneki_2',
+[6] = 'shanks',
 }
- TimeInBanner = '03'
+ TimeInBanner = '04'
