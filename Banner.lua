@@ -11,4 +11,4 @@ BannerStandard = {
 [5] = 'giorno',
 [6] = 'uryu',
 }
- TimeInBanner = 06
+ TimeInBanner = '06'
