@@ -1,14 +1,14 @@
 BannerSpacail = {
-[1] = 'koichi',
-[2] = 'genos_2',
-[3] = 'kira',
+[1] = 'soifon',
+[2] = 'hoshino_2',
+[3] = 'luffy_g4',
 }
 BannerStandard = {
-[1] = 'vegeta',
-[2] = 'sakura',
-[3] = 'zoro',
-[4] = 'ichigo_mask',
-[5] = 'erwin',
-[6] = 'gray',
+[1] = 'tanjiro',
+[2] = 'sanji',
+[3] = 'naruto',
+[4] = 'genos',
+[5] = 'pain',
+[6] = 'rengoku',
 }
- TimeInBanner = "01"
+ TimeInBanner = '02'
