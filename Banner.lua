@@ -11,4 +11,4 @@ BannerStandard = {
 [5] = 'dabi',
 [6] = 'juuzou',
 }
- TimeInBanner = 12
+ TimeInBanner = '12'
