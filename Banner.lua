@@ -1,14 +1,14 @@
 BannerSpacail = {
-[1] = 'metal_knight',
-[2] = 'tengen_2',
-[3] = 'medea',
+[1] = 'kenpachi',
+[2] = 'law_2',
+[3] = 'vegeta_super',
 }
 BannerStandard = {
-[1] = 'kaneki',
-[2] = 'vegeta',
-[3] = 'josuke',
-[4] = 'speedwagon',
-[5] = 'dabi',
-[6] = 'gon_adult',
+[1] = 'krillin',
+[2] = 'sakura',
+[3] = 'goku',
+[4] = 'todoroki',
+[5] = 'hisoka',
+[6] = 'meruem',
 }
- TimeInBanner = '07'
+ TimeInBanner = '08'
