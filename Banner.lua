@@ -1,14 +1,14 @@
 BannerSpacail = {
-[1] = 'asta',
-[2] = 'endeavor',
-[3] = 'fujitora',
+[1] = 'yuno',
+[2] = 'hoshino_2',
+[3] = 'ban',
 }
 BannerStandard = {
-[1] = 'goku',
-[2] = 'krillin',
-[3] = 'josuke',
-[4] = 'byakuya',
-[5] = 'toge',
-[6] = 'katakuri',
+[1] = 'vegeta',
+[2] = 'jonathan',
+[3] = 'kaneki',
+[4] = 'kakyoin',
+[5] = 'gajeel',
+[6] = 'levi',
 }
- TimeInBanner = '03'
+ TimeInBanner = '04'
