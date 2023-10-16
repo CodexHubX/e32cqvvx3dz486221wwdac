@@ -1,14 +1,14 @@
 BannerSpacail = {
-[1] = 'tengen_2',
-[2] = 'kira',
-[3] = 'sabo',
+[1] = 'lancer',
+[2] = 'kirito',
+[3] = 'pucci',
 }
 BannerStandard = {
 [1] = 'sakura',
-[2] = 'usopp',
-[3] = 'bakugou',
-[4] = 'law',
-[5] = 'mihawk',
-[6] = 'levi',
+[2] = 'zoro',
+[3] = 'nezuko',
+[4] = 'jotaro',
+[5] = 'touka',
+[6] = 'netero',
 }
- TimeInBanner = '08'
+ TimeInBanner = '09'
