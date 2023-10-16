@@ -1,14 +1,14 @@
 BannerSpacail = {
-[1] = 'ichigo_mugetsu',
-[2] = 'escanor_weak',
-[3] = 'usopp_ts',
+[1] = 'hoshino_2',
+[2] = 'sasuke_2',
+[3] = 'metal_knight',
 }
 BannerStandard = {
-[1] = 'sakura',
-[2] = 'nezuko',
-[3] = 'kaneki',
-[4] = 'byakuya',
-[5] = 'gajeel',
-[6] = 'madara',
+[1] = 'naruto',
+[2] = 'ichigo',
+[3] = 'zoro',
+[4] = 'frieza',
+[5] = 'mihawk',
+[6] = 'tatara',
 }
- TimeInBanner = '09'
+ TimeInBanner = '12'
