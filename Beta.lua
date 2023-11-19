@@ -1,3 +1,5 @@
+
+print("Loding")
 Service = { 
     [1] = game:GetService("Workspace"),
     [2] = game:GetService("Players"),
@@ -50,6 +52,9 @@ function GETUNITDATABASE()
         end
     end)
 end 
+
+
+
 UnitEquip = {}
 DataUnit = {}
 AllUnitInSlot = {}
@@ -121,6 +126,7 @@ function SETUPFULLAUTOPLAY()
         UNIT_COST[i]["Cost"] = tonumber(Service[8].PlayerGui.spawn_units.Lives.Frame.Units[tostring(i)].Cost.text.Text)
     end
 end    
+print("Hello Worlds")
 GETUNITDATABASE()
 SETUPFULLAUTOPLAY()
 for i,v in pairs(UNIT_COST)do 
