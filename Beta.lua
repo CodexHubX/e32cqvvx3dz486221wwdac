@@ -26,7 +26,7 @@ Service = {
 }
 
 DataBaseUnit = {}
-function LODING.GETUNITDATABASE()
+function GETUNITDATABASE()
     pcall(function()
     for i,v in pairs(Service[3]["src"]["Data"]["Units"]:GetDescendants())do
         if v:IsA("ModuleScript") and v.Name ~= "UnitPresets" and not string.find(v.Name,"_PVE")  then
@@ -108,7 +108,7 @@ if type(v) == "table"  then
         end
     end
 end 
-function LODING.SETUPFULLAUTOPLAY()
+function SETUPFULLAUTOPLAY()
     AI_CONFIG_SETIING = {
         ENABLED_SPAWN_LIMIT = false,
         ENABLED_UPGRADE_LIMIT = false,
@@ -121,6 +121,8 @@ function LODING.SETUPFULLAUTOPLAY()
         UNIT_COST[i]["Cost"] = tonumber(Service[8].PlayerGui.spawn_units.Lives.Frame.Units[tostring(i)].Cost.text.Text)
     end
 end    
-LODING.GETUNITDATABASE()
-LODING.SETUPFULLAUTOPLAY() 
-
+GETUNITDATABASE()
+SETUPFULLAUTOPLAY()
+for i,v in pairs(UNIT_COST)do 
+    print(i,v)
+end
